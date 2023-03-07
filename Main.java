@@ -26,7 +26,7 @@ class Main {
           System.out.println("Top 10 Forbes In-Demand Jobs!");
           break;
         case 4:
-          System.out.println("Current students:");
+          System.out.println("Current Students:" + "\n");
           while (fileScanner.hasNextLine()) {
             String line = fileScanner.nextLine();
             System.out.println(line);
